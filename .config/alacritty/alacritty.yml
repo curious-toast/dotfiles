@@ -40,7 +40,7 @@ window:
 
   decorations: buttonless
 
-background_opacity: 0.95
+window_opacity: 0.95
 
 # The FreeType rasterizer needs to know the device DPI for best results
 # (changes require restart)
@@ -90,11 +90,12 @@ font:
   # OS X only: use thin stroke font rendering. Thin strokes are suitable
   # for retina displays, but for non-retina you probably want this set to
   # false.
-  use_thin_strokes: false
+  # use_thin_strokes: false
 
 # Should display the render timer
 debug.render_timer: false
 
+# https://github.com/Rigellute/rigel
 colors:
   # Default colors
   primary:
@@ -131,7 +132,6 @@ colors:
   indexed_colors:
     - { index: 16, color: '0xF8BD96' }
     - { index: 17, color: '0xF5E0DC' }
-
 # Visual Bell
 #
 # Any time the BEL code is received, Alacritty "rings" the visual bell. Once
